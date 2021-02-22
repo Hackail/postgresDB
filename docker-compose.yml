@@ -1,0 +1,12 @@
+version: '2'
+services:
+  postgres:
+    image: 'postgres:latest'
+    container_name: postgresPruebaTecnica
+    restart: always
+    volumes:
+      - './postgres_data:/var/lib/postgresql/data'
+    environment:
+      - POSTGRES_PASSWORD=pruebatecnica
+    ports:
+      - '5432:5432'
