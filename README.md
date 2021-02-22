@@ -27,12 +27,14 @@ Asumiendo que se cuentan con los programas previamente mencionados para poder ej
 
 ## Despliegue 📦
 
-Luego, si se quiere revisar la base de datos, se puede crear una coexión a la misma por medio de las siguientes credenciales (También se encuentran especificadas en el docker-compose.yml):
+Luego, para concectarnos a la base de datos, se puede crear una coexión a la misma por medio de las siguientes credenciales (También se encuentran especificadas en el docker-compose.yml):
 usuario: pruebatecnica
 contraseña: pruebatecnica
 base de datos: postgres
 host: localhost
 puerto: 5432
+
+Y allí ejecutaremos el script que se encuentra también dentro de este repositorio, el cual corresponde a la creación de la tabla y al poblado de la misma.
 
 ## Construido con 🛠️
 
