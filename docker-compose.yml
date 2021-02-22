@@ -7,6 +7,8 @@ services:
     volumes:
       - './postgres_data:/var/lib/postgresql/data'
     environment:
+      - POSTGRES_USER=pruebatecnica
       - POSTGRES_PASSWORD=pruebatecnica
+      - POSTGRES_HOST_AUTH_METHOD=trust
     ports:
       - '5432:5432'
